@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Octaryn Engine</title>
+    <meta
+      name="description"
+      content="Minimal public info and contributor intake hub for Octaryn Engine."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="./index.html">Octaryn Engine</a>
+        <nav class="nav" aria-label="Primary">
+          <a class="active" href="./index.html">Home</a>
+          <a href="./contribute.html">Intake</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <span class="eyebrow">Verified access. Private rights.</span>
+            <h1>Octaryn Engine uses a verified private-source contributor flow.</h1>
+            <p class="lead">
+              This site now does only two jobs: explain the project at a glance
+              and send contributors to the verified intake flow. The private
+              code repos become visible after verified access, and the private
+              contributor records live in a Google Sheet stored in Google Drive, and in the
+              private intake backup repo.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="./contribute.html">Open Intake</a>
+              <a class="button" href="./contribute.html#public-reading">Read Public Terms</a>
+            </div>
+            <div class="pill-row">
+              <span class="pill">octaryn-core + octaryn-editor</span>
+              <span class="pill">Private response log</span>
+              <span class="pill">GitHub OAuth</span>
+              <span class="pill">Private backup repo</span>
+            </div>
+          </div>
+
+          <aside class="panel">
+            <strong class="kicker">Core rules</strong>
+            <div class="stat-grid">
+              <div class="card">
+                <strong>Not open source</strong>
+                <p>The code is access-controlled, and redistribution and reuse are restricted.</p>
+              </div>
+              <div class="card">
+                <strong>Contribution gate</strong>
+                <p>Verify with GitHub first, then complete the private intake and accept collaborator invites for the private code repos.</p>
+              </div>
+              <div class="card">
+                <strong>Distribution rights</strong>
+                <p>Only Zachary David Rose may release, distribute, or commercialize Octaryn Engine.</p>
+              </div>
+              <div class="card">
+                <strong>Owner</strong>
+                <p>Zachary David Rose retains release and commercial rights.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-tight">
+        <div class="wrap card-grid">
+          <article class="card">
+            <strong>1. Read</strong>
+            <p>Review the public intake summaries and contributor terms.</p>
+          </article>
+          <article class="card">
+            <strong>2. Intake</strong>
+            <p>Complete the verified contributor intake flow.</p>
+          </article>
+          <article class="card">
+            <strong>3. Use the same account</strong>
+            <p>Later PRs should come from the same GitHub account used for intake.</p>
+          </article>
+          <article class="card">
+            <strong>4. Submit PRs</strong>
+            <p>Maintainers review PRs only after intake is on file.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap two-column">
+          <div class="callout">
+            <h2>Where things live</h2>
+            <ul>
+              <li>`octaryn-engine`: public workspace repo, legal docs, issue templates, and PR workflow.</li>
+              <li>`octaryn-core` and `octaryn-editor`: private code repos granted by verified intake.</li>
+              <li>`octaryn-engine-site`: this minimal website.</li>
+              <li>Google Apps Script, a Google Sheet stored in Google Drive, and the private intake repo: verified contributor records.</li>
+            </ul>
+          </div>
+          <div class="callout">
+            <h2>What to do next</h2>
+            <ul>
+              <li>Read the public summaries on the intake page.</li>
+              <li>Complete the verified intake flow.</li>
+              <li>Accept access and submit focused PRs after intake is complete.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <h2>Essential links</h2>
+          <div class="link-grid">
+            <a class="card" href="./contribute.html#public-reading">
+              <strong>Public terms</strong>
+              <p>Read the public summaries for license, contribution rules, and assignment terms.</p>
+            </a>
+            <a class="card" href="https://script.google.com/macros/s/AKfycbyGsHf7AzW0qI_kUaegpCnmitAFibEJpZmuFQYInYjenw40W7BExqRMsYSe-QW4r1U4/exec" rel="noreferrer">
+              <strong>Contributor intake</strong>
+              <p>GitHub-verified private intake required before a first substantive PR.</p>
+            </a>
+            <a class="card" href="./contribute.html">
+              <strong>How to contribute</strong>
+              <p>Short intake and PR workflow for contributors.</p>
+            </a>
+            <a class="card" href="./contribute.html#assignment-summary">
+              <strong>Assignment summary</strong>
+              <p>Review the public summary of the contributor assignment terms.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        Octaryn Engine uses verified private-source access. It is not open source.
+      </div>
+    </footer>
+  </body>
+  </html>
