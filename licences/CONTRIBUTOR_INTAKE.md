@@ -11,8 +11,7 @@ https://zsg-studios.github.io/octaryn-engine-site/contribute.html
 
 The intake app is public to access, but it verifies the contributor's GitHub
 account through GitHub OAuth first. Submitted intake details are stored
-privately in a Google Sheet stored in Google Drive, and in the private intake
-backup repo controlled by Zachary David Rose.
+privately in the private intake repo controlled by Zachary David Rose.
 
 ## What the intake flow does
 

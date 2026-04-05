@@ -49,7 +49,7 @@ https://zsg-studios.github.io/octaryn-engine-site/contribute.html
 
 The intake app link is public so contributors can access it, but the flow first
 verifies the GitHub account and then stores submitted details privately in
-a Google Sheet stored in Google Drive, and in the private intake backup repo
+a private intake repo
 controlled by Zachary David Rose.
 
 ## What information should I put in the intake form?

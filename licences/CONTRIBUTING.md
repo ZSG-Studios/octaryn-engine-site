@@ -45,8 +45,7 @@ That intake flow is where you:
 - acknowledge that submitted contributions are governed by `licences/CONTRIBUTOR_ASSIGNMENT.md`.
 
 The live intake flow uses GitHub OAuth through a private Apps Script web app and
-stores contributor details privately in a Google Sheet stored in Google Drive,
-and in the private intake backup repo.
+stores contributor details privately in the private intake repo.
 
 Verified intake submissions are reviewed by the maintainer before any private
 repo collaborator invite is sent.
@@ -56,8 +55,8 @@ Current intake page URL:
 `https://zsg-studios.github.io/octaryn-engine-site/contribute.html`
 
 The intake flow verifies GitHub identity first and then may collect identity
-details such as your legal name and email address privately in a Google Sheet
-stored in Google Drive, and in the private intake backup repo.
+details such as your legal name and email address privately in the private
+intake repo.
 
 Pull requests from contributors who have not completed that process, or whose
 access has not been approved yet, may be
